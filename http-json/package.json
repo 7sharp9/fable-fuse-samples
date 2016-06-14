@@ -1,0 +1,16 @@
+{
+  "name": "http-json",
+  "version": "0.0.1",
+  "description": "A Fable-Fuse project",
+  "author": "7sharp9",
+  "license": "Apache-2.0",
+  "homepage": "",
+  "repository" : { 
+    "type" : "git",
+    "url" : "" },
+  "devDependencies": {
+    "fable-core": "^0.1.5",
+    "fable-fuse": "^0.0.2",
+    "fable-import-fetch": "^0.0.2"
+  }
+}

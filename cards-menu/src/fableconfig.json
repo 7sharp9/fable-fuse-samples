@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "postbuild": "node -e \"var fs = require('fs');fs.createReadStream('../node_modules/fable-core/commonjs.js').pipe(fs.createWriteStream('App/js/fable-core.js'));\""
+    }
+}

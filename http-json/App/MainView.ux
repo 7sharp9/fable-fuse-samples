@@ -1,0 +1,21 @@
+<App Background="#eee">
+	<DockPanel>
+		<StatusBarBackground Dock="Top" />
+		<BottomBarBackground Dock="Bottom" />
+		<ScrollView>
+			<Grid ColumnCount="2">
+				<JavaScript File="js/http-json.js" />
+				<Each Items="{data.colorsArray}">
+					<DockPanel Height="120" Margin="1,10">
+						<Panel DockPanel.Dock="Top" Margin="10" Height="30">
+							<Rectangle Layer="Background" CornerRadius="20" Fill="#fff"/>
+							<Text Value="{colorName}" TextAlignment="Center" Alignment="Center" />
+						</Panel>
+
+						<Rectangle Layer="Background" CornerRadius="10" Fill="{hexValue}"/>
+					</DockPanel>
+				</Each>
+			</Grid>
+		</ScrollView>
+	</DockPanel>
+</App>

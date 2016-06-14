@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "postbuild": "cp ../node_modules/fable-core/commonjs.js ../App/js/fable-core.js"
+    }
+}
